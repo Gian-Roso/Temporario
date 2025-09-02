@@ -5,17 +5,20 @@
     <main class="main-content login-main">
       <div class="login-box">
         <img src="../picture/logo_9.png" alt="" class="logo">
-        <h2>Login</h2>
+        <h2>Cadastrar</h2>
         <form @submit.prevent="login">
           <div class="form-group">
             <label for="email">Email</label>
             <input type="email" id="email" v-model="email" required />
           </div>
           <div class="form-group">
-            <label for="password">Senha</label>
-            <input type="password" id="password" v-model="password" required />
+            <label for="number">Number</label>
+            <input type="number" id="number" v-model="number" required />
           </div>
-          <button type="submit">Entrar</button>
+          <p>Sua solicitação de cadastro sera enviada para nossa equipe</p>
+          <p>dentro de alguns minutos entraremos em contato</p>
+          <button type="submit">Solicitar cadastro</button>
+          <a href="./Login.vue">Ir para o login</a>
         </form>
       </div>
     </main>
@@ -85,6 +88,9 @@ function login() {
   margin-bottom: 1.5rem;
   color: #113823;
   font-family: "Antonio", sans-serif;
+}
+.login-box p, a {
+    font-size: 13px;
 }
 
 .form-group {
