@@ -5,6 +5,10 @@
         Robustec Catalog
     </header>
     <header class="app-bar1">
+      <a href="/">Home</a>
+      <a href="/perfil">Perfil</a>
+      <a href="/Config">Configuration</a>
+      <a href="/About">About us</a>
     </header>
 
     <main class="main-content">
@@ -14,7 +18,7 @@
 
     <!-- Footer -->
     <footer class="app-footer">
-      © 2025 - Meu Projeto
+      © 2025 - copy
     </footer>
   </div>
 </template>
